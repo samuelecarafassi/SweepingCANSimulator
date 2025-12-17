@@ -9,7 +9,7 @@ class CanController():
 
     def __init__(self, bus_interface: str, bus_type: str):
         print(bus_interface,bus_type)
-        self.__bus = can.interface.Bus(bus_interface,bustype=bus_type)
+        self.__bus = can.interface.Bus(bus_interface,interface=bus_type)
 
     def get_bus(self):
         return self.__bus
@@ -51,7 +51,7 @@ if __name__ == "__main__":
         ecu2.start_ecu()
 
         # Read what is happening on the bus
-        bus = can.interface.Bus('vcan0', bustype='socketcan')
+        bus = can.interface.Bus('vcan0', interface='socketcan')
         try:
             while True:
                 msg = bus.recv()

@@ -1,0 +1,22 @@
+DBC file used: Ford Fusion 2018 PT
+
+ECUs and messages:
+> Powertrain control (motore)
+    - EngineData: 30ms
+> ABS/Brake control
+    - Cruise_status: 400ms
+    - WheelSpeed: 20ms
+    - Yaw_Data: 20ms
+    - Accel_data: 20ms
+    - WheelData: 120ms
+> ADAS / Lane Keep Assist
+    - Lane_Keep_Assist_Control: 300ms
+    - Lane_Keep_Assist_Status: 480ms
+> Body Control (luci, tergicristalli):
+    - BCM_to_HS_Body: 480ms
+> Door Control
+    - Doors: event triggered
+> EPS (Electronic Power Steering)
+    - EPAS_INFO: 480ms
+    - Steering_Wheel_Data_CG1: 20ms
+    - Steering_Buttons: event_triggered

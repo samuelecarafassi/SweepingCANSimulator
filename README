@@ -4,16 +4,13 @@ Universitary project...
 
 ## Resources
 
-Real ECUs messages extraction:
+DBC database - real ECUs messages extraction:
 https://github.com/commaai/opendbc/tree/master
 
+CAN in Automation, Am Weichselgarten 26, D-91058 Erlangen:
+https://www.port.de/fileadmin/user_upload/Dateien_IST_fuer_Migration/CAN20A.pdf
 
-CANdid dataset
-https://adelaide.figshare.com/articles/dataset/CANdid/29068553
+Pollicino Francesco, Stabili Dario and Marchetti Mirco, Performance Comparison of Timing-Based Anomaly Detectors for Controller Area Network: A Reproducible Study, ACM, 2024:
+https://arxiv.org/pdf/2307.04561
 
-
-[TO CHECK]
-
-https://ocslab.hksecurity.net/Datasets/survival-ids
-
-
+Bentley Publishers, _Bosch Automative Handbook_, Bentley Publishers, 2002
